@@ -1,0 +1,96 @@
+<html>
+  <body bgcolor="wheat" leftmargin="20">
+    <table border="0">
+      <form action="reg.jsp" target="_blank" method="post">
+        <h2 align="center"><u>Registration Form</u></h2>
+        <tr>
+          <td>First Name:</td>
+          <td>
+            <input
+              type="text"
+              name="firstname"
+              placeholder="Enter your First name"
+              maxlength="18"
+              autofocus
+              size="22"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Last Name:</td>
+          <td>
+            <input
+              type="text"
+              name="lastname"
+              placeholder="Enter your last name"
+              size="22"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Mobile Number:</td>
+          <td>
+            <input
+              type="tel"
+              name="mobilenumber"
+              pattern="[0-9]{10}"
+              placeholder="10 digits mobile number"
+              size="22"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Email Id:</td>
+          <td>
+            <input
+              type="email"
+              name="email"
+              placeholder="abc@gmail.com"
+              maxlength="35"
+              size="22"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Aadhar:</td>
+          <td>
+            <input
+              type="tel"
+              name="aadhar"
+              placeholder="Enter 12 digit aadhar number"
+              pattern="[0-9]{12}"
+              size="22"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td>DOB:</td>
+          <td><input type="date" name="dob" /></td>
+        </tr>
+        <tr>
+          <td>Language Known:</td>
+          <br />
+          <td>
+            <input type="checkbox" name="lang1" value="eng" />English
+            <input type="checkbox" name="lang2" value="hin" />Hindi
+            <input type="checkbox" name="lang3" value="tel" />Telugu
+          </td>
+        </tr>
+
+        <tr>
+          <td>Gender:</td>
+          <td>
+            <input type="radio" name="gender" />Male
+            <input type="radio" name="gender" />Female
+            <input type="radio" name="gender" />Other
+          </td>
+        </tr>
+
+        <tr>
+          <td><input type="submit" />&nbsp;<input type="reset" /></td>
+        </tr>
+      </form>
+    </table>
+  </body>
+</html>
