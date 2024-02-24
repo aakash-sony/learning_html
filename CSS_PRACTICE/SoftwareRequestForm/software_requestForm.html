@@ -1,0 +1,128 @@
+<html>
+  <body style="background-color: aqua; margin: 0; padding: 0">
+    <div>
+      <div style="width: 18%; height: 100vh; float: left"></div>
+      <div
+        style="
+          border: 2px solid black;
+          background-color: white;
+          width: 63%;
+          margin-top: 5vh;
+          margin-bottom: 5vh;
+          height: 88vh;
+          float: left;
+          border-radius: 16px;
+          font-family: 'Times New Roman', Times, serif;
+        "
+      >
+        <h2 style="color: darkblue; text-align: center; font-size: x-large">
+          Software Request
+        </h2>
+
+        <table
+          style="
+            font-size: medium;
+            color: blue;
+            width: 100%;
+            height: 70vh;
+            margin-left: 20px;
+            font-weight: bold;
+          "
+        >
+          <form action="request.jsp" target="_blank">
+            <tr>
+              <td>Name</td>
+              <td>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Enter your full name"
+                  required
+                  size="40"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Employee ID</td>
+              <td>
+                <input
+                  ty="text"
+                  name="empid"
+                  placeholder="Enter your Employee ID"
+                  required
+                  size="40"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Email</td>
+              <td>
+                <input
+                  type="email"
+                  placeholder="abc@gmail.com"
+                  name="email"
+                  size="40"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Mobile Number</td>
+              <td>
+                <input
+                  type="tel"
+                  pattern="[0-9]{10}"
+                  placeholder="Enter your 10 digits mo.no."
+                  size="40"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td>Which Software do you require?</td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="softwareA" />Software A</td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="softwareB" />Software B</td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="softwareC" />Software C</td>
+            </tr>
+            <tr>
+              <td>How urgently do you need?</td>
+            </tr>
+            <tr>
+              <td><input type="radio" name="reason" />As soon as possible</td>
+            </tr>
+            <tr>
+              <td><input type="radio" name="reason" />Within 2 or 3 weeks</td>
+            </tr>
+            <tr>
+              <td><input type="radio" name="reason" />I'm in no hurry</td>
+            </tr>
+          </form>
+        </table>
+
+        <center>
+          <input
+            type="submit"
+            value="Request"
+            style="
+              background-color: navy;
+              width: 96%;
+              color: white;
+              marker-start: 2%;
+              margin-bottom: 2%;
+              border-radius: 4px;
+              padding-top: 5px;
+              padding-bottom: 5px;
+            "
+          />
+        </center>
+      </div>
+      <div style="width: 18%; height: 100vh; float: left"></div>
+    </div>
+  </body>
+</html>
