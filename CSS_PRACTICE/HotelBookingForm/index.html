@@ -1,0 +1,133 @@
+<html>
+
+<head>
+    <title>Booking form</title>
+</head>
+
+<body style="margin: 0; padding: 0; background-color: black;">
+    <div>
+        <div style="width: 25%; height: 99vh; float: left;"></div>
+        <div style="
+          width: 49%;
+          background-color: cadetblue;
+          height: 95vh;
+          margin-top: 2%;
+          margin-bottom: 3%;
+          float: left;
+          border: 5px solid red;
+          text-align: center;
+          border-radius: 12px;
+          
+        ">
+            <h1><u>Hotel Booking Form</u></h1>
+
+            <form action="hotelbooking.jsp" target="_blank">
+
+                <table style="width: 100vh;height: 75%; 
+                    font-family: 'Times New Roman', Times, serif; 
+                    font-weight: bold;margin-left: 26px;
+                    ">
+
+                    <tr>
+                        <td colspan="2">
+                            <input type="text" placeholder="Full Name" name="fullname" required
+                                style="width: 95vh;  padding-top: 1.5vh; padding-bottom: 1.5vh;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="email" placeholder="Email" name="email"
+                                style="width: 45vh; padding-top: 1.5vh; padding-bottom: 1.5vh;" />
+                        </td>
+                        <td>
+                            <input type="tel" placeholder="Mobile Number" pattern="[0-9]{10}" required
+                                style="width: 45vh; padding-top: 1.5vh; padding-bottom: 1.5vh; float: left;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="text" placeholder="Address" name="address" required
+                                style="width: 95vh;  padding-top: 1.5vh; padding-bottom: 1.5vh;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" placeholder="City" name="city" required
+                                style="width: 45vh; padding-top: 1.5vh; padding-bottom: 1.5vh;" />
+                        </td>
+                        <td>
+                            <select placeholder="Select" name="state" required
+                                style="width: 45vh; padding-top: 1.5vh; padding-bottom: 1.5vh;" />
+                            <option>Uttar Pradesh
+                            <option>Telangan
+                            <option>Delhi
+                            </option>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" placeholder="Zip Code" name="zipcode"
+                                style="width: 45vh; padding-top: 1.5vh; padding-bottom: 1.5vh;" />
+                        </td>
+                        <td>
+                            <select name="country" required
+                                style="width: 45vh; padding-top: 1.5vh; padding-bottom: 1.5vh;" />
+                            <option>India
+                            <option>USA
+                            <option>UK
+                                </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <lable>checkin</lable>
+                        </td>
+                        <td>
+                            <lable>checkout</lable>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="date" name="checkin" required style="width: 45vh; padding-top: 1.5vh; 
+                                padding-bottom: 1.5vh;" />
+                        </td>
+                        <td>
+                            <input type="date" name="checkout" required style="width: 45vh; padding-top: 1.5vh; 
+                                padding-bottom: 1.5vh;" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <input type="text" placeholder="No.Of Person" style="width: 45vh; padding-top: 1.5vh; 
+                            padding-bottom: 1.5vh;" />
+                        </td>
+                        <td>
+                            <input type="number" name="male" min="0" max="50" placeholder="Male" style="width:  45vh; padding-top: 1.5vh; 
+                                padding-bottom: 1.5vh;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="number" name="female" min="0" max="50" placeholder="Female" style="width:  45vh; padding-top: 1.5vh; 
+                                padding-bottom: 1.5vh;" />
+                        </td>
+                        <td>
+                            <input type="number" name="kids" min="0" max="50" placeholder="Kids" style="width:  45vh; padding-top: 1.5vh; 
+                                padding-bottom: 1.5vh;" />
+                        </td>
+                    </tr>
+                </table>
+                
+                <input type="submit" value="Book" style="background-color: aquamarine;
+                color: black; font-family: 'Times New Roman', Times, serif; font-weight: bolder;
+                 width: 96%; margin-top: 2%; margin-bottom: 2%;
+                 padding-top: 5px;  padding-bottom: 5px; border-radius: 14px;"/>
+            </form>
+        </div>
+        <div style="width: 25%; height: 99vh; float: left;"></div>
+    </div>
+</body>
+
+</html>
