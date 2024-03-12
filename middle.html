@@ -1,0 +1,75 @@
+<html>
+  <head>
+    <style>
+        @keyframes demo
+      {
+        from{background-color: cadetblue;}
+        to
+        0%{background-color: chartreuse;}
+        25%{background-color: chocolate;}
+        50%{background-color: coral;}
+        75%{background-color: crimson;}
+        100%{background-color: darkgreen;}  
+      }
+      body {
+        animation-name: demo;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      #sub2
+      {
+        border-style: solid;
+        border-color: black;
+        border-radius: 100px;
+        padding: 40px;
+        background-color: aqua;
+      }
+      #sub1{
+        border-style: dashed;
+        border-width: 5px;
+        border-color: green;
+        border-radius: 100px;
+        padding: 40px;
+        background-color: blueviolet;
+      }
+      #sub{
+        border-style: solid;
+        border-color: red;
+        background-color: cyan;
+        padding: 20px;
+        border-radius: 100px;
+        background-color: aliceblue;
+      }
+      #sub:hover
+      {
+        background-color: yellow;
+        font-style: italic;
+        border-width: 5px;
+      }
+      #sub1:hover
+      {
+        background-color: cadetblue;
+        border-width: 10px;
+      }
+      #sub2:hover
+      {
+        background-color: red;
+        border-width: 15px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div id="sub2">
+    <div id="sub1">
+      <div id="sub">
+        <h1>HTML</h1>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
